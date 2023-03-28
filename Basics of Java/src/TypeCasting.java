@@ -13,7 +13,7 @@ public class TypeCasting {
         int num = (int)(89.65f);  // Here, I have done type casting.
         System.out.println(num);
 
-        // Automatic Type Promotion in expressions:
+
 //example 1
         int a = 257;
         byte b = (byte)(a);   // Here I am storing Integer value into byte.
