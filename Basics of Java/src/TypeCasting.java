@@ -21,6 +21,8 @@ public class TypeCasting {
 
         System.out.println(b);
 
+        // Automatic Type Promotion in expressions:
+
 // example 2
         byte n1 = 45;
         byte n2 = 55;
