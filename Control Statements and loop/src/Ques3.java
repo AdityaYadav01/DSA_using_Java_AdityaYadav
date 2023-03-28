@@ -3,6 +3,7 @@
 
 import java.util.Scanner;
 
+
 public class Ques3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -15,24 +16,30 @@ public class Ques3 {
 
         System.out.print("Enter the operation you want to perform: ");
         char ops = in.next().charAt(0);
+        
+        int result = 0;
 
 
         if(ops == '+') {
-            int result = n1 + n2;
-            System.out.println(result);
+            result = n1 + n2;
+            
         }
         else if (ops == '-') {
-            int result = n1-n2;
-            System.out.println(result);
+            result = n1-n2;
+            
         }
         else if (ops == '*') {
-            int result = n1 * n2;
-            System.out.println(result);
+             result = n1 * n2;
+            
+        }
+        else if(ops == '/'){
+             result = n1 / n2;
         }
         else{
-            int result = n1 / n2;
-            System.out.println(result);
+            System.out.println("Invalid Operator");
         }
+
+        System.out.println(result);
 
     }
 }
