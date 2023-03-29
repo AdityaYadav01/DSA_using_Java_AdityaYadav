@@ -31,6 +31,7 @@ public class SyntaxForControlStatements {
 the certain condition is reached. Once the condition is false loop is terminated.
 
  for-loop - It execute group of statements as long as certain condition is true.
+ We use for-loop when we know how many times loop will be executing.
  syntax - for(initialization, condition, incremental value){
               statements;
         }
@@ -40,19 +41,32 @@ the certain condition is reached. Once the condition is false loop is terminated
             System.out.print(i + " ");
         }
         System.out.println();
-/*Syntax for while-loop: (We use while loop when we don't know how many times will loop run')
+/*Syntax for while-loop: (We use while loop when we don't know how many times will loop run.
 
-        intialization;
+        initialization;
         while(condition){
             statement;
             incremental value;
         } */
 
         int n = 1;
-        while(n<=5){
+        while(n<=5) {
             System.out.print(n + " ");
             n++;
         }
+        /* do-while loop - It will execute a group of statements until a given condition is true.
+        In do-while loop, the statement is executed without checking the condition for the first time.
+        From the second time, only the condition is observed. This means programmer doesn't have control from the begining of the program.
+
+        Syntax for do-while loop:
+
+        do{
+           body;
+           }
+           while(condition);
+
+
+         */
         
 
     }
