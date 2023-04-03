@@ -7,10 +7,12 @@ public class PassByValue {
         System.out.println(n1 + " " + n2);
     }
 
-    static void swap(int s1, int s2) {        // Pass by value
+    static void swap(int s1, int s2) {        //Here, they are just passes the value.
+        // At function level scope they are swapped.
         int temp = s1;
         s1 = s2;
         s2 = temp;
+
     }
 
 
