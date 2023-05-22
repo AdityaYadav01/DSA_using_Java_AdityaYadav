@@ -16,7 +16,7 @@ public class Ques2 {
         System.out.print("Enter the Principal value: ");
         float time = in.nextFloat();
 
-        float SimpleInterest = principal*rate*time;
+        float SimpleInterest = (principal*rate*time)/100;
         System.out.println(SimpleInterest);
 
 
